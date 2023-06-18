@@ -1,0 +1,162 @@
+/* general */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+.float-item
+{
+    float:left;
+}
+.clr-fix
+{
+    clear:both;
+}
+.container
+{
+    width: 80%;
+    margin:auto;
+    padding: 20px 0;
+}
+
+/* start navbar */
+.nav-logo
+{
+    width: 30%;
+}
+.nav-list
+{
+    width:45%;
+    padding-top: 10px;
+}
+.nav-list li
+{
+    padding-left: 20px;
+}
+.nav-list li a
+{
+    text-transform: capitalize;
+    color: black;
+}
+.nav-icons
+{
+    width: 8%;
+    padding-top: 10px;
+}
+.nav-icons i
+{
+    color:rgb(56, 74, 235);
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+.nav-buttons
+{
+    width: 15%;
+    padding-top: 10px;
+}
+.nav-buttons a
+{
+    border: 1px solid rgb(56, 74, 235);
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: black;
+}
+/* end navbar */
+
+/* start header */
+.header-img
+{
+    width:40%;
+}
+.header-img img
+{
+    width: 100%;
+}
+.header-content
+{
+    width: 60%;
+    padding-top: 180px;
+    padding-left: 115px;
+}
+.header-content .short-bio
+{
+    font-size: 25px;
+}
+h1
+{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.header-content  p
+{
+    font-size: 16px;
+}
+.header-content .buttons
+{
+    padding-top: 30px;
+}
+.header-content .buttons a
+{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(56, 74, 235);
+    border-radius: 20px;
+}
+/* end header */
+
+/* start products */
+.products .float-item
+{
+    width: 32%;
+    padding-right: 10px;
+}
+.products img
+{
+    width: 100%;
+}
+/* end products */
+
+/* start trend products */
+h2
+{
+    padding: 20px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.trend-products p
+{
+    font-size: 17px;
+}
+.trend-products .float-item
+{
+    width: 25%;
+    text-align: center;
+}
+.trend-products .blue-line
+{
+    border-bottom: 1px;
+    border-bottom: 2px solid rgb(56, 74, 235);
+}
+.trend-products .float-item p
+{
+    padding: 10px 0;
+}
+.trend-products .float-item .blue-color
+{
+    color: rgb(56, 74, 235);
+    font-weight: 700;
+}
+/* end trend products */
